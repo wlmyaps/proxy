@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+    <title>Free web proxy - browse fast & anonymously</title> <link rel="canonical" href="index.htm"><html lang="en">
+<head>
+
+    <!-- Google tag (gtag.js) -->
+
+    <script async="" src="gtag/js?id=G-7K0KDNLEWZ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-7K0KDNLEWZ');
+    </script>
+
+    <!-- BASIC META-->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Proxyium">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!--page specific tags-->
+
+    <meta name='description' content='Best free web proxy, browse anonymously, and unblock your favorite websites.'>
+    <meta property='og:description' content='Best free web proxy, browse anonymously, and unblock your favorite websites.'>
+    <meta name='keywords' content='proxy, web proxy, online proxy, unblock proxy, unblock youtube, youtube proxy, proxy server, online proxy server, free web proxy, proxy site, proxy browser, proxy browsing, proxy site, free online proxy, web proxy online, web proxy unblock'>
+    <meta name="facebook-domain-verification" content="00e61yfdunfqc7twc7qnsqx13g61vl">
+    <meta property='og:title' content='Free web proxy - browse fast & anonymously'>
+
+    <!-- FAVICON -->
+
+    <link rel="icon" href="assets/img/favicon.ico?v=4">
+    <meta content='/assets/img/favicon.png?v=4' property='og:image'>
+    <link rel="preload" as="font" href="assets/fnt/Montserrat-SemiBold.woff2" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" href="assets/fnt/Montserrat-Regular.woff2" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" href="assets/fnt/Montserrat-Medium.woff2" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" href="assets/fnt/Montserrat-Bold.woff2" type="font/woff2" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/normalize.min.css?v=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css?v=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/fonts.min.css?v=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css?v=40">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css?v=1.5">
+    <link rel="stylesheet" type="text/css" href="assets/css/nice-select.min.css?v=1">
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.nice-select2.min.js"></script>
+    <script src="assets/js/jquery.sticky.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <style>
+        <!--
+        a.gflag {
+            vertical-align: middle;
+            font-size: 24px;
+            padding: 1px 0;
+            background-repeat: no-repeat;
+            background-image: url(flags/24.png);
+        }
+        a.gflag img {
+            border: 0;
+        }
+        a.gflag:hover {
+            background-image: url(flags/24a.png);
+        }
+        -->
+    </style>
+    <script type="text/javascript">
+        function doGTranslate(lang_pair)
+        {
+            if(lang_pair.value) {
+                lang_pair = lang_pair.value;
+            }
+            if(lang_pair == '') {
+                return;
+            }
+            var lang = lang_pair.split('|')[1];
+            var plang = location.pathname.split('/')[1];
+            if(plang.length != 2 && plang.toLowerCase() != 'zh-cn' && plang.toLowerCase() != 'zh-tw') {
+                plang = 'en';
+            }
+            if(lang == 'en') {
+                location.href = location.protocol + '//' + location.host +
+                    location.pathname.replace('/' + plang + '/', '/') +
+                    location.search;
+            }
+            else {
+                location.href = location.protocol + '//' + location.host +
+                    '/' + lang + location.pathname.replace('/' + plang + '/', '/') +
+                    location.search;
+            }
+        }
+
+        $(document).ready(function() {
+            $('select').niceSelect();
+            $("#sticky-wrapper").sticky({topSpacing: 0, zIndex: 5});
+            $("#bottomlogo")
+                .html(
+                    "<img src='https://wlmyaps.github.io/proxy/assets/img/logo_light.svg' alt='proxyium light logo'>");
+            $('footer').css('background-image', 'url(/assets/img/footer-bg.png)');
+            $('<img/>')
+                .attr('src', '/assets/img/background.png')
+                .on('load', function() {
+                    $(this).remove();
+                    $('body')
+                        .css('background-image', 'url(/assets/img/background.png)');
+                    $('body').css('background-color', '#fff');
+                });
+            $(document).click(function(event) {
+                if(!$(event.target).is('#mainmenu *')) {
+                    if($(window).width() <= 767) {
+                        $('#mainmenu').collapse('hide')
+                    }
+                }
+            });
+        });
+    </script>
+
+    <script async="" src="pagead/js/f.txt?client=ca-pub-4989892168778415" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+<header>
+    <nav id="sticky-wrapper">
+        <div class="container accordion" id="navaccordion">
+            <div class="row">
+                <div class="col-md-5 mobile-toggler-wrapper">
+                    <a href="index.htm" id="logoheadurl">
+                        <img src="assets/img/logo_dark.svg" id="toplogo" alt="dark Proxyium logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu" aria-controls="mainmenu" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"><svg height="384pt" viewbox="0 -53 384 384" width="384pt" xmlns="http://www.w3.org/2000/svg"><path d="m368 154.667969h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0"></path><path d="m368 32h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0"></path><path d="m368 277.332031h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0"></path></svg></span>
+                    </button>
+                </div>
+                <div class="col-md-7 navigation-container">
+                    <div class="navigation navbar-expand">
+                        <ul class="list-inline text-right collapse navbar-collapse" id="mainmenu">
+                            <li><a href="index.htm">Home</a></li>
+                            <li class="dropdown current-menu-has-children">
+                                <a data-toggle="collapse" data-target="#helpmenu" aria-controls="helpmenu" aria-expanded="false" aria-label="Toggle help navigation" class="collapsed">Usecases
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-down" class="svg-inline--fa fa-angle-down fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 320 512">
+                                        <path d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"></path>
+                                    </svg>
+                                </a>
+                                <div class="collapse" id="helpmenu" data-parent="#navaccordion">
+                                    <ul class="dropdown-nav dropdown-nav-left">
+                                        <li><a href="index.htm">General web proxy</a></li>
+                                        <li><a href="youtube.html">YouTube web proxy</a></li>
+                                        <li><a href="website-unblocker.html">Website unblocker</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li class="dropdown current-menu-has-children">
+                                <a data-toggle="collapse" data-target="#langmenu" aria-controls="langmenu" aria-expanded="false" aria-label="Toggle language navigation" class="collapsed"><i class="sprite sprite-gb_flag" role="img" aria-label="[Current language: english]"></i><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-down" class="svg-inline--fa fa-angle-down fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 320 512"><path d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"></path></svg></a>                                <div class="collapse" id="langmenu" data-parent="#navaccordion">
+                                    <ul class="dropdown-nav dropdown-nav-left notranslate" style="max-height: 270px;overflow-y: scroll;">
+                                        <li><a href="#" onclick="doGTranslate('en|en');return false;" title="English" class="nturl"><i class="sprite sprite-gb_flag" role="img" aria-label="[Select: English]"></i> English</a></li><li><a href="#" onclick="doGTranslate('en|ja');return false;" title="Japanese" class="nturl"><i class="sprite sprite-jp_flag" role="img" aria-label="[Select: Japanese]"></i> 日本</a></li><li><a href="#" onclick="doGTranslate('en|tr');return false;" title="Turkish" class="nturl"><i class="sprite sprite-tr_flag" role="img" aria-label="[Select: Turkish]"></i> Türk</a></li><li><a href="#" onclick="doGTranslate('en|pa');return false;" title="Punjabi" class="nturl"><i class="sprite sprite-pk_flag" role="img" aria-label="[Select: Punjabi]"></i> پنجابی</a></li><li><a href="#" onclick="doGTranslate('en|hi');return false;" title="Hindi" class="nturl"><i class="sprite sprite-in_flag" role="img" aria-label="[Select: Hindi]"></i> हिन्दी</a></li><li><a href="#" onclick="doGTranslate('en|id');return false;" title="indonesian" class="nturl"><i class="sprite sprite-id_flag" role="img" aria-label="[Select: indonesian]"></i> bahasa Indonesia</a></li><li><a href="#" onclick="doGTranslate('en|ru');return false;" title="Russian" class="nturl"><i class="sprite sprite-ru_flag" role="img" aria-label="[Select: Russian]"></i> Pусский</a></li><li><a href="#" onclick="doGTranslate('en|de');return false;" title="German" class="nturl"><i class="sprite sprite-de_flag" role="img" aria-label="[Select: German]"></i> Deutsch</a></li><li><a href="#" onclick="doGTranslate('en|pt');return false;" title="Portuguese" class="nturl"><i class="sprite sprite-pt_flag" role="img" aria-label="[Select: Portuguese]"></i> Português</a></li><li><a href="#" onclick="doGTranslate('en|fr');return false;" title="French" class="nturl"><i class="sprite sprite-fr_flag" role="img" aria-label="[Select: French]"></i> Français</a></li><li><a href="#" onclick="doGTranslate('en|zh-CN');return false;" title="Chinese (Simplified)" class="nturl"><i class="sprite sprite-cn_flag" role="img" aria-label="[Select: Chinese (Simplified)]"></i> 简体中文</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </nav>
+</header>
+<main>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title ">
+                    <h1>William Free Web Proxy</h1>
+                    <img src="assets/img/section-shape.png?v=2" alt="section-shape">
+                    <p>Browse fast & anonymously</p>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="itemcard wp">
+
+                    <h2>Start browsing here:</h2>
+
+                    <style>
+    #unique-form-group {
+        display: inline-block;
+        height: 51px;
+        margin-bottom: 0 !important;
+    }
+    #proxy_country {
+        display: none;
+    }
+    #unique-nice-select {
+        height: 51px;
+        width: 245px;
+        line-height: 50px;
+        display: inline-block;
+        border-radius: 0.25rem 0 0 0.25rem;
+    }
+    #unique-form-control {
+        height: 51px;
+        width: calc(100% - 122px);
+        display: inline-block;
+        border-radius: 0;
+    }
+    #unique-btn-blue {
+        border-radius: 0 .25rem .25rem 0;
+        width: 122px;
+    }
+    #unique-svg {
+        height: 12px;
+        min-height: unset;
+        min-width: unset;
+        margin-left: 7px;
+        margin-top: -2px;
+    }
+    .ebeb48e9-bb1f-444f-a8d9-accb8cc17441 {
+        fill: #fff;
+    }
+    #web_proxy_form {
+        display: flex;
+        align-items: center;
+    }
+    #input_button {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    @media (max-width: 992px) {
+        #web_proxy_form {
+            flex-direction: column-reverse;
+        }
+
+        #unique-nice-select {
+            width: 100%;
+        }
+
+        #unique-form-group {
+            width: 100%;
+            margin-bottom: 15px !important;
+        }
+
+        #unique-form-control {
+            border-radius: 0.25rem 0 0 0.25rem;
+        }
+    }
+    div#zapperSquare {
+        min-height: 252px;
+        margin: 25px 0 20px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    div#zapperIndexLeft {
+        width: 50%;
+        display: inline-block;
+        align-self: flex-start;
+    }
+    div#zapperIndexRight {
+        width: 50%;
+        margin-left: 25px;
+        display: inline-block;
+        align-self: flex-start;
+    }
+    div#zapperBottom {
+        padding-top: 20px;
+        width: 100%;
+    }
+    #croxyExtraZapper {
+        margin: 30px 0 20px 0;
+        width: 100%;
+        min-height: 195px;
+    }
+    .zapperTest {
+        border: 1px dotted red;
+    }
+
+    @media (max-width: 1200px)
+    {
+        div#zapperIndexLeft {
+            width: 100%;
+        }
+
+        div#zapperIndexRight {
+            display: none;
+        }
+    }
+</style>
+<div id="zapperSquare">
+    <script async="" src="pagead/js/f.txt?client=ca-pub-4989892168778415" crossorigin="anonymous"></script>
+    <div id="zapperIndexLeft" class="">
+        <!-- index-media-top-proxyium-1 -->
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4989892168778415" data-ad-slot="1742140668" data-ad-format="auto" data-full-width-responsive="true"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
+    <div id="zapperIndexRight" class="">
+        <!-- index-media-top-proxyium-2 -->
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4989892168778415" data-ad-slot="8018978241" data-ad-format="auto" data-full-width-responsive="true"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
+</div>
+<div id="form-container">
+    <form action="https://cdn.proxyium.com/proxyrequest.php" method="post" id="web_proxy_form" class="nturl">
+        <input type="hidden" name="type" value="">
+        <div class="form-group" id="unique-form-group">
+            <select name="proxy_country" id="proxy_country" style="display: none;">
+                <option value="pl" selected="">Poland (Fast)</option>
+                <option value="us">United States (Medium)</option>
+                <option value="sg">Singapore (Slow)</option>
+                <option value="de">Germany (Slow)</option>
+            </select>
+            <div class="nice-select" tabindex="0" id="unique-nice-select">
+                <span class="text">Country: </span>
+                <span class="current">Poland (Fastest)</span>
+                <ul class="list">
+                    <li data-value="pl" class="option selected">Poland (Fast)</li>
+                    <li data-value="us" class="option">United States (Medium)</li>
+                    <li data-value="sg" class="option">Singapore (Slow)</li>
+                    <li data-value="de" class="option">Germany (Slow)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="input_button">
+            <input placeholder="Put a URL or search query here to start browsing" type="text" class="form-control" id="unique-form-control" name="url"><button type="submit" value="Send" class="btn btn-blue" id="unique-btn-blue" onclick="dataLayer.push({'event': 'GAEvent', 'eventAction': 'go', 'eventCategory': 'webproxy'});">
+                GO
+                <svg id="unique-svg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 206.6 319.9">
+                    <defs>
+                        <style>.ebeb48e9-bb1f-444f-a8d9-accb8cc17441 { fill: #fff; }</style>
+                    </defs>
+                    <title>rarrow</title>
+                    <path class="ebeb48e9-bb1f-444f-a8d9-accb8cc17441" d="M199.55,176.85l-136,136a23.9,23.9,0,0,1-33.9,0l-22.6-22.6a23.9,23.9,0,0,1,0-33.9l96.4-96.4L7.05,63.55a23.9,23.9,0,0,1,0-33.9l22.6-22.6a23.9,23.9,0,0,1,33.9,0l136,136a23.78,23.78,0,0,1,0,33.8Z"></path>
+                </svg>
+            </button>
+        </div>
+        <!-- CP_FORM_TAG -->
+    </form>
+    <div class="policies">
+        By using the web-proxy you accept the
+        <a href="web-proxy-policies.html" style="text-decoration: underline;" target="_black">web-proxy policies</a>
+    </div>
+</div>
+<div id="zapperBottom">
+    <div id="zapper" class="">
+        <script async="" src="pagead/js/f.txt?client=ca-pub-4989892168778415" crossorigin="anonymous"></script>
+        <!-- index-media-bottom-proxyium -->
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4989892168778415" data-ad-slot="7377610720" data-ad-format="auto" data-full-width-responsive="true"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
+</div>
+
+<br>
+
+                    <div>
+                        <p>About 3.8 billion people are online every day. From sharing content to
+                            collecting data for organizational purposes, there are about 2.5
+                            quintillion bytes of data being processed by Google every day. Not all
+                            data is available to all people around the world. For example, a show on
+                            Netflix in one country may not be available in another country. This is
+                            due to restrictions and copyrights imposed by the government of the
+                            respective country. Web proxy is the easiest way to access all
+                            restricted content without having to install any kind of
+                            software.&nbsp;</p>
+
+                        <h2>What Is a Web Proxy?</h2>
+
+                        <p>A web proxy allows you to browse the web anonymously and unblock your
+                            favorite websites without installing software, like a VPN. Our web proxy
+                            is free and supports the most popular websites, such as YouTube, Google,
+                            Facebook, Twitter, and adult entertainment websites. All your traffic is
+                            encrypted while browsing to make sure you stay anonymous.&nbsp;</p>
+
+                        <h2>How Does Web Proxy Work?</h2>
+
+                        <p>A Web Proxy has its own IP address, which acts as the intermediary
+                            between the user and the internet. Once the user requests information
+                            online, the request is routed via a web proxy, the web proxy retrieves
+                            the information from the targeted website, then sends it to the user.
+                            This way the user's local IP address is masked.</p>
+
+                        <div style="margin: 30px 0 20px 0; width: 100%; min-height: 195px;">
+    <div class="">
+        <script async="" src="pagead/js/f.txt?client=ca-pub-4989892168778415" crossorigin="anonymous"></script>
+        <!-- index-media-extra-proxyium -->
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4989892168778415" data-ad-slot="5423716447" data-ad-format="auto" data-full-width-responsive="true"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
+</div>
+
+                        <h2>Why Do You Need a Web Proxy?</h2>
+
+                        <p>For an average user, a web proxy helps to access the restricted content
+                            behind geoblocking in websites and streaming platforms like Netflix and
+                            Amazon Prime. This is carried out without compromising the internet
+                            connectivity speed. With Proxyium, you can surf restricted websites
+                            without annoying ads and other constraints. Simply paste the URL or type
+                            the website name and you will be directed to the website home page. It's
+                            that quick and simple.&nbsp;</p>
+                        <p>The second aspect of the need for web proxy is to improve network
+                            performance. For example, let us say that you visited an XYZ website in
+                            the morning. The web proxy saves the data from the webpage temporarily,
+                            so when you visit it again in early noon, it actually serves you a copy
+                            of the webpage and reduces the latency.</p>
+
+                        <h2>The Difference between Web Proxy and VPN</h2>
+
+                        <p>Web proxy servers and VPNs both act as an intermediary between the user
+                            and a website. Web proxies and VPNs both receive a request from the
+                            user, get a response from the targeted websites, and route it to the
+                            user again. The main differences between proxy servers and VPNs are how
+                            they work and which protocols they support, which affects their privacy
+                            and security capabilities.</p>
+                        <p>VPNs are typically configured at a system level, allowing all traffic to
+                            pass through them, i.e., web browsing, music streaming, file sharing, or
+                            gaming. Many VPN software solutions allow users to exclude selected apps
+                            from operating through the VPN, but the default settings usually direct
+                            all traffic through them.&nbsp;</p>
+                        <p>On the other hand, a web proxy can be accessed directly from the browser
+                            and does not require software installation. However, the disadvantage is
+                            that a web proxy can only open websites and can not mask your IP address
+                            for other applications on your device. A web proxy is ideal if you
+                            quickly need to visit a blocked website without downloading any type of
+                            software.</p>
+
+                        <h2>Advantages of Our Web Proxy:</h2>
+
+                        <ul>
+                            <li><strong>Hides Your Identity:</strong> Our web proxy encrypts your
+                                internet traffic, making it impossible to access your local IP
+                                address. This way, you can anonymously surf your favorite websites
+                                without worrying about your identity being compromised.&nbsp;
+                            </li>
+                        </ul>
+                        <ul>
+                            <li><strong>SSL Encryption:</strong> All websites are encrypted with
+                                SSL, even the ones that don't have SSL by default. <span style="color: #222222;">SSL (Secure Sockets Layer) are protocols for establishing authenticated and encrypted links between networked computers.</span>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li><strong>Share with Your Friends:</strong> Share pages with your
+                                friends with a permalink. Using this permalink, your friends get
+                                immediate access to restricted sites without blockers.
+                            </li>
+                        </ul>
+                        <ul>
+                            <li><strong>Access on All OS:</strong> A web proxy from Proxyium can be
+                                used on all operating systems without restrictions.&nbsp;
+                            </li>
+                        </ul>
+                        <ul>
+                            <li><strong>Supports Most Modern Web Standards:</strong> Our web proxy
+                                supports most web standards. Web standards are documentation for the
+                                best practices of the standard and technical aspects of the web
+                                page.
+                            </li>
+                        </ul>
+                        <ul>
+                            <li><strong>No Download Limit:</strong> With our web proxy, you can
+                                download content to your heart's desire without having to worry
+                                about the download limit.
+                            </li>
+                        </ul>
+                        <div>
+
+                            <h2>FAQs:</h2>
+
+                            <ul>
+                                <li><strong>Is Proxyium’s web proxy free?</strong>
+                                    <p>It is absolutely free and supports modern websites like
+                                        YouTube, Twitter, and Google. You just need to paste the
+                                        link and you are good to go.</p></li>
+                                <li><strong>What does a web proxy do?</strong>
+                                    <p>Aweb proxy acts as an intermediary between the user and the
+                                        internet. Taking a request from the user to the targeted
+                                        website,&nbsp; receiving the response, and routing it back
+                                        to the user.&nbsp;</p></li>
+                                <li><strong>When is the best time to use a web proxy?</strong>
+                                    <p>Based on your needs. If you don't want to install software on
+                                        your local computer, with the help of a web proxy, you can
+                                        simply type in the website address and get the result.</p>
+                                </li>
+                                <li><strong>Does a web proxy affect internet performance?</strong>
+                                    <p>No, a web proxy uses cache memory, which stores the data
+                                        temporarily about the webpage you visited. If you want to
+                                        visit that webpage again, the web proxy provides you with a
+                                        copy of the webpage, which reduces the latency.</p></li>
+                            </ul>
+                        </div>
+
+                        <h2>Conclusion:</h2>
+
+                        <p>If you are a person who does not want to install dedicated software on
+                            your computer for simple web surfing, a web proxy is the best solution
+                            for you. Our web proxy provides you the best access to all the
+                            restricted sites without compromising on qualities like internet speed
+                            and connectivity.&nbsp;</p>
+                    </div>
+                </div>
+            </div>
+</div></div></main>
+
+<footer>
+    <div class="container">
+        <div class="footer-main">
+            <div class="row">
+                <div class="col-lg-3 col-md-12 col-12">
+                    <div class="itemcard">
+                        <div class="logo">
+                            <a href="index.htm" id="bottomlogo"></a>
+                        </div>
+                        <p>Thanks for using our web proxy! Need help? Contact us here:</p>
+                        <div>
+                            <div class="footer-links">
+                                <ul>
+                                    <li><a class="openwidget" data-openwidget-action="maximize">Contact</a></li>
+                                </ul>
+                            </div>
+                            <p>Thanks to everyone for the amazing support!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12 col-12 ">
+                    <div class="itemcard mgl30">
+                        <h2>Quick Links</h2>
+                        <div class="footer-links">
+                            <ul>
+                                <li><a class="openwidget" data-openwidget-action="maximize">Contact</a></li>
+                                <li><a href="web-proxy-policies.html">Web proxy policies</a></li>
+                                <li><a href="privacy-policy.html">Privacy policy</a></li>
+                                <li><a href="languages.html">Languages</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12 col-12 ">
+                    <div class="itemcard mgl30">
+                        <h2>Web proxy usecases</h2>
+                        <div class="footer-links">
+                            <ul>
+                                <li><a href="youtube.html">YouTube web proxy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <!-- footer text -->
+        </div>
+    </div>
+</footer>
+
+<!-- Start of OpenWidget (www.openwidget.com) code -->
+<script>
+    window.__ow = window.__ow || {};
+    window.__ow.organizationId = "73b4d55c-ad7e-49d3-b668-f38dc5d62097";
+    ;(function(n,t,c){function i(n){return e._h?e._h.apply(null,n):e._q.push(n)}var e={_q:[],_h:null,_v:"2.0",on:function(){i(["on",c.call(arguments)])},once:function(){i(["once",c.call(arguments)])},off:function(){i(["off",c.call(arguments)])},get:function(){if(!e._h)throw new Error("[OpenWidget] You can't use getters before load.");return i(["get",c.call(arguments)])},call:function(){i(["call",c.call(arguments)])},init:function(){var n=t.createElement("script");n.async=!0,n.type="text/javascript",n.src="https://cdn.openwidget.com/openwidget.js",t.head.appendChild(n)}};!n.__ow.asyncInit&&e.init(),n.OpenWidget=n.OpenWidget||e}(window,document,[].slice))
+    OpenWidget.on('ready', () => {
+        OpenWidget.call('hide');
+    });
+</script>
+<noscript>You need to <a href="https://www.openwidget.com/enable-javascript" rel="noopener nofollow">enable JavaScript</a> to use the communication tool powered by <a href="https://www.openwidget.com/" rel="noopener nofollow" target="_blank">OpenWidget</a></noscript>
+<!-- End of OpenWidget code -->
+</body>
+</html>
